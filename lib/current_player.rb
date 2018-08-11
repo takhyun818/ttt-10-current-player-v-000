@@ -1,3 +1,4 @@
+require 'pry'
 def turn_count(board)
   board.count do |position|
     position == "X" || position == "O"
